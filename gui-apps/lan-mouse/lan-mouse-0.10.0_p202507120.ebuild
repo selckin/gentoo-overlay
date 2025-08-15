@@ -419,6 +419,7 @@ CRATES="
 "
 
 RUST_MIN_VER="1.80"
+
 inherit cargo desktop systemd xdg
 
 DEPEND="
@@ -452,6 +453,8 @@ LICENSE+="
 "
 SLOT="0"
 KEYWORDS="~amd64"
+
+RESTRICT="mirror"
 
 QA_FLAGS_IGNORED="usr/bin/lan-mouse"
 
