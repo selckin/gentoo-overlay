@@ -7,7 +7,7 @@
                          let axis: Axis = (axis as u32).try_into()?;
                          self.pointer
 -                            .axis_discrete(now, axis, value as f64 / 6., value / 120);
-+                            .axis_discrete(now, axis, value as f64 / 6., value);
++                            .axis_discrete(now, axis, value as f64 / 8., value);
                          self.pointer.frame();
                      }
                  }
