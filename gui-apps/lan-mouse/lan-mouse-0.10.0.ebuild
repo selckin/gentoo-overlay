@@ -8,11 +8,7 @@ EAPI=8
 CRATES="
 	addr2line@0.24.2
 	adler2@2.0.0
-	aead@0.5.2
-	aes-gcm@0.10.3
-	aes@0.8.4
 	aho-corasick@1.1.3
-	android_system_properties@0.1.5
 	anstream@0.6.18
 	anstyle-parse@0.2.6
 	anstyle-query@1.1.2
@@ -22,12 +18,6 @@ CRATES="
 	arraydeque@0.4.5
 	arrayvec@0.4.12
 	ashpd@0.10.2
-	asn1-rs-derive@0.4.0
-	asn1-rs-derive@0.5.1
-	asn1-rs-impl@0.1.0
-	asn1-rs-impl@0.2.0
-	asn1-rs@0.5.2
-	asn1-rs@0.6.2
 	async-broadcast@0.7.1
 	async-channel@2.3.1
 	async-io@2.3.4
@@ -40,62 +30,32 @@ CRATES="
 	atomic-waker@1.1.2
 	autocfg@1.4.0
 	backtrace@0.3.74
-	base16ct@0.2.0
-	base64@0.22.1
-	base64ct@1.6.0
-	bincode@1.3.3
 	bitflags@1.3.2
 	bitflags@2.6.0
-	block-buffer@0.10.4
-	block-padding@0.3.3
 	blocking@1.6.1
-	bumpalo@3.16.0
 	byteorder@1.5.0
 	bytes@1.8.0
 	cairo-rs@0.20.5
 	cairo-sys-rs@0.20.0
-	camino@1.1.9
-	cargo-platform@0.1.9
-	cargo_metadata@0.18.1
-	cbc@0.1.2
 	cc@1.1.36
-	ccm@0.5.0
 	cfg-expr@0.17.0
 	cfg-if@1.0.0
 	cfg_aliases@0.2.1
-	cipher@0.4.4
 	clap@4.5.20
 	clap_builder@4.5.20
 	clap_derive@4.5.18
 	clap_lex@0.7.2
 	colorchoice@1.0.3
 	concurrent-queue@2.5.0
-	const-oid@0.9.6
-	const_fn@0.4.11
-	const_format@0.2.34
-	const_format_proc_macros@0.2.34
 	core-foundation-sys@0.8.7
 	core-foundation@0.10.0
 	core-graphics-types@0.2.0
 	core-graphics@0.24.0
-	cpufeatures@0.2.14
 	crossbeam-utils@0.8.20
-	crypto-bigint@0.5.5
-	crypto-common@0.1.6
-	ctr@0.9.2
-	curve25519-dalek-derive@0.1.1
-	curve25519-dalek@4.1.3
 	data-encoding@2.6.0
-	der-parser@8.2.0
-	der-parser@9.0.0
-	der@0.7.9
-	deranged@0.3.11
-	digest@0.10.7
 	displaydoc@0.2.5
 	dlib@0.5.2
 	downcast-rs@1.2.1
-	ecdsa@0.16.9
-	elliptic-curve@0.13.8
 	endi@1.1.0
 	enum-as-inner@0.6.1
 	enumflags2@0.7.10
@@ -107,8 +67,6 @@ CRATES="
 	event-listener-strategy@0.5.2
 	event-listener@5.3.1
 	fastrand@2.1.1
-	ff@0.13.0
-	fiat-crypto@0.2.9
 	field-offset@0.3.6
 	foreign-types-macros@0.2.3
 	foreign-types-shared@0.3.1
@@ -128,13 +86,10 @@ CRATES="
 	gdk-pixbuf@0.20.4
 	gdk4-sys@0.9.3
 	gdk4@0.9.3
-	generic-array@0.14.7
 	getrandom@0.2.15
-	ghash@0.5.1
 	gimli@0.31.1
 	gio-sys@0.20.5
 	gio@0.20.5
-	git2@0.20.0
 	glib-build-tools@0.20.0
 	glib-macros@0.20.5
 	glib-sys@0.20.5
@@ -142,7 +97,6 @@ CRATES="
 	gobject-sys@0.20.4
 	graphene-rs@0.20.4
 	graphene-sys@0.20.4
-	group@0.13.0
 	gsk4-sys@0.9.3
 	gsk4@0.9.3
 	gtk4-macros@0.9.3
@@ -156,13 +110,9 @@ CRATES="
 	hex@0.4.3
 	hickory-proto@0.24.1
 	hickory-resolver@0.24.1
-	hkdf@0.12.4
-	hmac@0.12.1
 	hostname@0.3.1
 	hostname@0.4.0
 	humantime@2.1.0
-	iana-time-zone-haiku@0.1.2
-	iana-time-zone@0.1.61
 	icu_collections@1.5.0
 	icu_locid@1.5.0
 	icu_locid_transform@1.5.0
@@ -177,23 +127,16 @@ CRATES="
 	idna@1.0.3
 	idna_adapter@1.2.0
 	indexmap@2.6.0
-	inout@0.1.3
 	ipconfig@0.3.2
 	ipnet@2.10.1
-	is_debug@1.0.2
 	is_terminal_polyfill@1.70.1
 	itoa@1.0.11
-	jobserver@0.1.32
-	js-sys@0.3.77
 	keycode@0.4.0
 	keycode_macro@0.4.0
-	lazy_static@1.5.0
 	libadwaita-sys@0.7.1
 	libadwaita@0.7.1
 	libc@0.2.161
-	libgit2-sys@0.18.0+1.9.0
 	libloading@0.8.5
-	libz-sys@1.1.21
 	linked-hash-map@0.5.6
 	linux-raw-sys@0.4.14
 	litemap@0.7.3
@@ -205,49 +148,29 @@ CRATES="
 	match_cfg@0.1.0
 	memchr@2.7.4
 	memmap@0.7.0
-	memoffset@0.7.1
 	memoffset@0.9.1
-	minimal-lexical@0.2.1
 	miniz_oxide@0.8.0
 	mio@1.0.2
-	nix@0.26.4
 	nix@0.29.0
 	nodrop@0.1.14
-	nom@7.1.3
-	num-bigint@0.4.6
-	num-conv@0.1.0
-	num-integer@0.1.46
-	num-traits@0.2.19
 	num_enum@0.7.3
 	num_enum_derive@0.7.3
-	num_threads@0.1.7
 	object@0.36.5
-	oid-registry@0.7.1
 	once_cell@1.20.2
-	opaque-debug@0.3.1
 	ordered-stream@0.2.0
-	p256@0.13.2
-	p384@0.13.0
 	pango-sys@0.20.4
 	pango@0.20.4
 	parking@2.2.1
 	parking_lot@0.12.3
 	parking_lot_core@0.9.10
 	paste@1.0.15
-	pem-rfc7468@0.7.0
-	pem@3.0.4
 	percent-encoding@2.3.1
 	pin-project-lite@0.2.15
 	pin-utils@0.1.0
 	piper@0.2.4
-	pkcs8@0.10.2
 	pkg-config@0.3.31
 	polling@3.7.3
-	polyval@0.6.2
-	portable-atomic@1.9.0
-	powerfmt@0.2.0
 	ppv-lite86@0.2.20
-	primeorder@0.13.6
 	proc-macro-crate@3.2.0
 	proc-macro2@1.0.89
 	quick-error@1.2.3
@@ -256,51 +179,33 @@ CRATES="
 	rand@0.8.5
 	rand_chacha@0.3.1
 	rand_core@0.6.4
-	rcgen@0.13.1
 	redox_syscall@0.5.7
 	regex-automata@0.4.8
 	regex-syntax@0.8.5
 	regex@1.11.1
 	reis@0.4.0
 	resolv-conf@0.7.0
-	rfc6979@0.4.0
-	ring@0.17.8
 	rustc-demangle@0.1.24
 	rustc_version@0.4.1
-	rusticata-macros@4.1.0
 	rustix@0.38.39
-	rustls-pki-types@1.10.0
-	rustls-webpki@0.102.8
-	rustls@0.23.16
-	rustversion@1.0.19
 	ryu@1.0.18
 	scoped-tls@1.0.1
 	scopeguard@1.2.0
-	sec1@0.7.3
 	semver@1.0.23
 	serde@1.0.214
 	serde_derive@1.0.214
 	serde_json@1.0.132
 	serde_repr@0.1.19
 	serde_spanned@0.6.8
-	sha1@0.10.6
-	sha2@0.10.8
-	shadow-rs@0.38.0
 	shlex@1.3.0
 	signal-hook-registry@1.4.2
-	signature@2.2.0
 	slab@0.4.9
 	smallvec@1.13.2
 	socket2@0.5.7
-	spin@0.9.8
-	spki@0.7.3
 	stable_deref_trait@1.2.0
 	static_assertions@1.1.0
 	strsim@0.11.1
-	subtle@2.6.1
-	syn@1.0.109
 	syn@2.0.87
-	synstructure@0.12.6
 	synstructure@0.13.1
 	system-deps@7.0.3
 	target-lexicon@0.12.16
@@ -309,9 +214,6 @@ CRATES="
 	thiserror-impl@2.0.0
 	thiserror@1.0.68
 	thiserror@2.0.0
-	time-core@0.1.2
-	time-macros@0.2.18
-	time@0.3.36
 	tinystr@0.7.6
 	tinyvec@1.8.0
 	tinyvec_macros@0.1.1
@@ -325,31 +227,17 @@ CRATES="
 	tracing-attributes@0.1.27
 	tracing-core@0.1.32
 	tracing@0.1.40
-	typenum@1.17.0
-	tz-rs@0.6.14
-	tzdb@0.6.1
-	tzdb_data@0.1.4
 	uds_windows@1.1.0
 	unicode-bidi@0.3.17
 	unicode-ident@1.0.13
 	unicode-normalization@0.1.24
 	unicode-segmentation@1.12.0
-	unicode-xid@0.2.6
-	universal-hash@0.5.1
-	untrusted@0.9.0
 	url@2.5.3
 	utf16_iter@1.0.5
 	utf8_iter@1.0.4
 	utf8parse@0.2.2
-	vcpkg@0.2.15
 	version-compare@0.2.0
-	version_check@0.9.5
 	wasi@0.11.0+wasi-snapshot-preview1
-	wasm-bindgen-backend@0.2.100
-	wasm-bindgen-macro-support@0.2.100
-	wasm-bindgen-macro@0.2.100
-	wasm-bindgen-shared@0.2.100
-	wasm-bindgen@0.2.100
 	wayland-backend@0.3.7
 	wayland-client@0.31.7
 	wayland-protocols-misc@0.3.5
@@ -357,8 +245,6 @@ CRATES="
 	wayland-protocols@0.32.5
 	wayland-scanner@0.31.5
 	wayland-sys@0.31.5
-	webrtc-dtls@0.10.0
-	webrtc-util@0.9.0
 	widestring@1.1.0
 	winapi-i686-pc-windows-gnu@0.4.0
 	winapi-x86_64-pc-windows-gnu@0.4.0
@@ -396,10 +282,7 @@ CRATES="
 	write16@1.0.0
 	writeable@0.5.5
 	x11@2.21.0
-	x25519-dalek@2.0.1
-	x509-parser@0.16.0
 	xdg-home@1.3.0
-	yasna@0.5.2
 	yoke-derive@0.7.4
 	yoke@0.7.4
 	zbus@5.1.0
@@ -409,8 +292,6 @@ CRATES="
 	zerocopy@0.7.35
 	zerofrom-derive@0.1.4
 	zerofrom@0.1.4
-	zeroize@1.8.1
-	zeroize_derive@1.4.2
 	zerovec-derive@0.10.3
 	zerovec@0.10.4
 	zvariant@5.1.0
@@ -418,55 +299,38 @@ CRATES="
 	zvariant_utils@3.0.2
 "
 
-RUST_MIN_VER="1.80"
-
 inherit cargo desktop systemd xdg
 
 DEPEND="
 	dev-libs/glib:2
 	gui-libs/gtk:4
 	gui-libs/libadwaita:1
+	x11-libs/cairo
 	x11-libs/libX11
 	x11-libs/libXtst
+	x11-libs/pango
 	x11-themes/hicolor-icon-theme
-	debug? (
-		x11-libs/cairo
-		x11-libs/pango
-		x11-libs/gdk-pixbuf:2
-		media-libs/graphene
-		dev-libs/libgit2:=
-	)
 "
 RDEPEND="${DEPEND}"
 BDEPEND="virtual/pkgconfig"
 
 DESCRIPTION="Software KVM Switch / mouse & keyboard sharing software for Local Area Networks"
 HOMEPAGE="https://github.com/feschber/lan-mouse"
-
-COMMIT=e46fe60b3e24be83de38701faa99a4fbd9186f08
 SRC_URI="
 	${CARGO_CRATE_URIS}
-	https://github.com/feschber/lan-mouse/archive/e46fe60b3e24be83de38701faa99a4fbd9186f08.tar.gz -> ${P}.tar.gz
+	https://github.com/feschber/lan-mouse/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz
 "
-S="${WORKDIR}/${PN}-$COMMIT"
 
 LICENSE="GPL-3+"
 # Dependent crate licenses
 LICENSE+="
-	Apache-2.0 Apache-2.0-with-LLVM-exceptions BSD ISC MIT MIT-0
-	Unicode-3.0 Unicode-DFS-2016 ZLIB
+	Apache-2.0-with-LLVM-exceptions ISC MIT Unicode-3.0 Unicode-DFS-2016
+	|| ( Apache-2.0 Boost-1.0 )
 "
 SLOT="0"
 KEYWORDS="~amd64"
 
-RESTRICT="mirror"
-
 QA_FLAGS_IGNORED="usr/bin/lan-mouse"
-
-PATCHES=(
-	# https://github.com/feschber/lan-mouse/issues/318
-	"${FILESDIR}/${PV}-wlroots-scroll.patch"
-)
 
 src_install() {
 	cargo_src_install
